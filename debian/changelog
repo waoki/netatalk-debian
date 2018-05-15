@@ -1,4 +1,4 @@
-netatalk (3.1.11-1) UNRELEASED; urgency=medium
+netatalk (3.1.11-1.1) UNRELEASED; urgency=medium
 
   [ Adrian Knoth ]
   * Imported Upstream version 3.1.11
@@ -18,7 +18,10 @@ netatalk (3.1.11-1) UNRELEASED; urgency=medium
   [ Mostyn Bramley-Moore ]
   * licensecheck is part of the devscripts package in jessie and earlier
 
- -- Adrian Knoth <adi@drcomp.erfurt.thur.de>  Sun, 04 Jun 2017 21:27:58 +0200
+  [ Will Aoki ]
+  * Merged Marco Wessel's patch from #740352
+
+ -- Will Aoki <waoki@umnh.utah.edu>  Tue, 15 May 2018 09:54:20 -0600
 
 netatalk (3.0.6-1) experimental; urgency=low
 

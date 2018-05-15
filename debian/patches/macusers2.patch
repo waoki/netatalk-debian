@@ -1,0 +1,11 @@
+--- a/contrib/macusers/macusers.in
++++ b/contrib/macusers/macusers.in
+@@ -29,7 +29,7 @@
+         $MATCH_STR = '\s*(\w+)\s+(\d+)\s+(\d+)\s+\d+\s+([\d\w:]+)';
+ } else {
+         $PS_STR    = "-eo user:32,pid,ppid,c,stime,tty,time,cmd";
+-        $MATCH_STR = '\s*(\w+)\s+(\d+)\s+(\d+)\s+\d+\s+([\d\w:]+)';
++        $MATCH_STR = '\s*(\S+)\s+(\d+)\s+(\d+)\s+\d+\s+([\d\w:]+)';
+ }
+ $ASIP_PORT    = "afpovertcp";
+ $ASIP_PORT_NO = 548;
